@@ -18,6 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { title } from "process";
 
 export const RESUME_DATA = {
   name: "Vasu Sadariya",
@@ -55,13 +56,16 @@ export const RESUME_DATA = {
       school: "Sardar Vallabhbhai National Institute of Technology,Surat",
       degree: "Btech in Electronics and Communication Engineering",
       start: "2023",
-      end: "2027(ongoing)",
+      end: "2027(Ongoing)",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
     "Next.js",
+    "Solidity",
+    "Smart-Contract",
+    "Hardhat",
     "React.js",
     "Node.js",
     "Prisma ORM",
@@ -74,6 +78,97 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Open Source Contribution",
+      techStack: [
+        "Contribution",
+        "Open-Source",
+        "JavaScript",
+        "First Contribution",
+      ],
+      description: "Solved the issue in Agora Blockchain Repo of the conditional re-rendring in JavaScript using React.js",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Agora-blockchain.com",
+        href: "https://github.com/AOSSIE-Org/Agora-Blockchain/pull/94",
+      },
+    },
+    {
+      title: "Helper-Buddy",
+      techStack: [
+        "Main-Project",
+        "TypeScript",
+        "Next.js",
+        "Next-auth",
+        "PostgreSQL",
+        "Prima-ORM",
+        "Tailwind-CSS",
+        "Webhook",
+        "Razorpay",
+        "Recharts",
+      ],
+      description: "HelperBuddy is a role-based service platform that connects users with service partners, featuring an admin dashboard with rich analytics, secure authentication, and a sleek, user-friendly UI.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "HelperBuddy.com",
+        href: "https://helppperbuuuddy.vercel.app",
+      },
+    },
+    {
+      title: "Alumni-Website for NIT Surat",
+      techStack: [
+        "main-project",
+        "TypeScript",
+        "Next.js",
+        "Next-Auth",
+        "PostgreSQL",
+        "Prisma ORM",
+        "Tailwind-CSS",
+      ],
+      description: "Alumni website for NIT Surat where they can register and contribute to the college in terms of financial aid",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Alumni-svnit.com",
+        href: "https://alumni-mindbend-git-vasu-vasusadariyas-projects.vercel.app",
+      },
+    },
+    {
+      title: "Student Chapter Website - NIT Surat",
+      techStack: [
+        "main-project",
+        "TypeScript",
+        "Next.js",
+        "Next-Auth",
+        "PostgreSQL",
+        "Prisma ORM",
+        "Tailwind-CSS",
+      ],
+      description: "Cutting Edge Visionary student chapter website for NIT Surat where they can signup and use the resources for various causes and initiatives and there is a dedicated section HORIZON for Magazine",
+      logo: ConsultlyLogo,
+      link: {
+        label: "cev.com",
+        href: "https://cev-website.vercel.app",
+      },
+    },
+    {title: "Online Election",
+      techStack: [
+        "Hackthon-Project",
+        "TypeScript",
+        "Next.js",
+        "Firebase",
+        "MongoDB",
+        "Tailwind-CSS",
+        "Solidity",
+        "Smart-Contract",
+        "IPFS Storage",
+      ],
+      description: "An online voting system built for a hackathon with role-based authentication, using Firebase and MongoDB for auth and storage, and integrated with IPFS for decentralized document storage and retrieval via blockchain-based hashes.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Dotslash.com",
+        href: "https://github.com/vasusadariya/dot-slash-final",
+      },
+    },
+    {
       title: "Real-Time-Chat App",
       techStack: [
         "Main-Project",
@@ -85,7 +180,6 @@ export const RESUME_DATA = {
         "Prima-ORM",
         "Tailwind-CSS",
         "Express.js",
-
       ],
       description: "A platform to have chat with you loveones and strangers by creating room chat",
       logo: ConsultlyLogo,
@@ -129,6 +223,25 @@ export const RESUME_DATA = {
       link: {
         label: "Price-converter.com",
         href: "https://github.com/vasusadariya/price-converter-smart-contract",
+      },
+    },
+    {
+      title: "Decentralized-Healthcare",
+      techStack: [
+        "Web3-Project", 
+        "RemixEthereum-IDE", 
+        "Solidity",
+        "Blockchain",
+        "ethers.js",
+        "Hardhat",
+        "smart-contract",
+      ],
+      description:
+        "A platform to provide healthcare services to store the patient data in a decentralized way",
+      logo: JarockiMeLogo,
+      link: {
+        label: "Decentralized-Healthcare.com",  
+        href: "https://github.com/vasusadariya/Healthcare",
       },
     },
     {
@@ -178,7 +291,7 @@ export const RESUME_DATA = {
         "TypeScript", 
         "Next.js"
       ],
-      description: "Memories dump platflorm for my  use for my siblings.",
+      description: "Memories dump platflorm for my siblings.",
       logo: YearProgressLogo,
       link: {
         label: "memories.com",
